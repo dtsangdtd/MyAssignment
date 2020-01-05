@@ -1,0 +1,34 @@
+body{
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+.navbar .navbar-brand{
+    color: red;
+}
+#mainNavbar .nav-link:hover{
+    color: red;
+}
+h1{
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: 100;
+}
+.row{
+    margin-top: 2rem;
+}
+img{
+    border-radius: 2%;
+}
+#content-header span{
+    color: red;
+    
+}
+@media( max-width: 1200px) {
+   #content-header h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    }
+}
