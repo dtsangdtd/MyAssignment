@@ -57,7 +57,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6  order-2 order-md-1"> <!-- change place of img when size of screen change to medium -->
+        <div class="col-md-6  order-2 order-md-1">
+          <!-- change place of img when size of screen change to medium -->
           <img class="img-fluid" src="img/2.jpg" alt="" />
         </div>
         <div class="col-md-6  order-1 order-md-2 text-center text-white">
@@ -103,8 +104,15 @@
           </div>
         </div>
       </div>
-      
     </section>
+    <script>
+      $(function() {
+        $(document).scroll(function() {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

@@ -32,3 +32,6 @@ img{
     font-weight: 100;
     }
 }
+.navbar.scrolled{
+    background: rgb(222,192,222);
+}
